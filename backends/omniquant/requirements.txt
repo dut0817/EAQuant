@@ -1,0 +1,8 @@
+-r ../../requirements.txt
+
+# OmniQuant environment recorded in the retained paper logs.
+datasets==2.20.0
+einops==0.8.2
+
+# PyTorch 2.4.1 and torchvision 0.19.1 are installed together and separately
+# because the appropriate wheel index depends on the CUDA toolchain.

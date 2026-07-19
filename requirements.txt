@@ -1,0 +1,10 @@
+# Shared, non-CUDA dependencies for the paper workflow.
+# Install the backend-specific PyTorch build first, then one backend requirements file.
+accelerate==0.34.2
+jinja2==3.1.6
+numpy==1.24.2
+sentencepiece==0.2.0
+tokenizers==0.19.1
+tqdm==4.67.3
+transformers==4.44.2
+typing-extensions>=4.12,<5

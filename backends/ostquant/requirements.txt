@@ -1,0 +1,11 @@
+-r ../../requirements.txt
+
+# OSTQuant environment used for the retained paper checkpoints.
+datasets==2.17.1
+einops==0.6.0
+geoopt==0.5.0
+lm-eval==0.4.11
+loguru==0.7.2
+
+# PyTorch 2.2.1 and fast-hadamard-transform 1.0.4.post1 are installed
+# separately because their wheels/builds depend on the CUDA toolchain.
